@@ -5,12 +5,12 @@ const timerProgress = document.getElementById("timer-progress");
 function play() {
   if (myAudio.paused) {
     myAudio.play();
-    playBtn.classList.add("icon-pause");
-    playBtn.classList.remove("icon-play");
+    playBtn.classList.add("icon-volume-strike");
+    playBtn.classList.remove("icon-volume");
   } else {
     myAudio.pause();
-    playBtn.classList.add("icon-play");
-    playBtn.classList.remove("icon-pause");
+    playBtn.classList.add("icon-volume");
+    playBtn.classList.remove("icon-volume-strike");
   }
 }
 if (myAudio.ended) {
@@ -36,6 +36,6 @@ const update = setInterval(function () {
 }, 10);
 
 myAudio.onended = () => {
-  playBtn.classList.add("icon-play");
-  playBtn.classList.remove("icon-pause");
+  playBtn.classList.add("icon-volume");
+  playBtn.classList.remove("icon-volume-strike");
 };
