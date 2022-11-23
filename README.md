@@ -1,2 +1,2 @@
 # oh-
-Funny website with Matias Stefano speachs
+Funny website with Matias de Stefano speachs
