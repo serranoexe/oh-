@@ -58,7 +58,7 @@ button {
   background: transparent;
   background-size: cover;
   color: #FFFFFF;
-  font-size: 3rem;
+  font-size: 10vh;
   cursor: pointer;
 }
 button:before {
